@@ -1,8 +1,8 @@
 var elements = document.getElementsByTagName('*');
 
 var sourceWordsToTargetWords = [
-    [['Stanford swimmer', 'convicted Stanford swimmer', 'ex-Stanford swimmer', 'former Stanford swimmer', 'Stanford sex offender', 'Former Stanford Swimmer', 'Former Stanford swimmer',], 'convicted rapist'],
-    [['Brock Turner',], 'convicted rapist Brock Turner'],
+    [['former Stanford University swimmer', 'Stanford swimmer', 'convicted Stanford swimmer', 'ex-Stanford swimmer', 'former Stanford swimmer', 'Stanford sex offender', 'Former Stanford Swimmer', 'Former Stanford swimmer', 'Stanford University swimmer'], 'convicted rapist'],
+    [['former Stanford University swimmer Brock Turner', 'Stanford swimmer Brock Turner', 'convicted Stanford swimmer Brock Turner', 'ex-Stanford swimmer Brock Turner', 'former Stanford swimmer Brock Turner', 'Stanford sex offender Brock Turner', 'Former Stanford Swimmer Brock Turner', 'Former Stanford swimmer Brock Turner', 'freshman Brock Turner'], 'convicted rapist Brock Turner'],
 ];
 
 function makeRegex(sourceWords) {
