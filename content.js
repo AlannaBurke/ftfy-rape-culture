@@ -1,7 +1,7 @@
 var elements = document.getElementsByTagName('*');
 
 var sourceWordsToTargetWords = [
-    [['former Stanford University swimmer', 'Stanford swimmer', 'convicted Stanford swimmer', 'ex-Stanford swimmer', 'former Stanford swimmer', 'Stanford sex offender', 'Former Stanford Swimmer', 'Former Stanford swimmer', 'Stanford University swimmer'], 'convicted rapist'],
+    [['former Stanford University swimmer', 'Stanford swimmer', 'convicted Stanford swimmer', 'ex-Stanford swimmer', 'former Stanford swimmer', 'Stanford sex offender', 'Former Stanford Swimmer', 'Former Stanford swimmer', 'Stanford University swimmer', 'All-American swimmer', 'Stanford freshman', 'member of Stanford’s varsity swim team', 'record-setting swimming prodigy', 'Stanford athlete', 'Olympic hopeful'], 'convicted rapist'],
     [['former Stanford University swimmer Brock Turner', 'Stanford swimmer Brock Turner', 'convicted Stanford swimmer Brock Turner', 'ex-Stanford swimmer Brock Turner', 'former Stanford swimmer Brock Turner', 'Stanford sex offender Brock Turner', 'Former Stanford Swimmer Brock Turner', 'Former Stanford swimmer Brock Turner', 'freshman Brock Turner'], 'convicted rapist Brock Turner'],
 ];
 
